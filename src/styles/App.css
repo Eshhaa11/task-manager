@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   height: 100%;
   background-color: #1e1f29; /* dark background */
-  color: #e5e7eb;            /* light text */
+  color: #e5e7eb;            
   font-family: 'Inter', system-ui, sans-serif;
 }
 

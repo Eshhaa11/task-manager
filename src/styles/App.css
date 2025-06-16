@@ -1,4 +1,4 @@
-/* ===== Root Theme Tokens ===== */
+
 :root {
   --bg:             #1e1f29;
   --panel:          #282a36;
@@ -13,7 +13,7 @@
   color-scheme: dark;
 }
 
-/* ===== Global ===== */
+
 html, body {
   margin: 0;
   height: 100%;
@@ -29,7 +29,7 @@ html, body {
   padding: 40px 16px;
 }
 
-/* ===== App Container ===== */
+
 .app-container {
   width: 100%;
   max-width: 640px;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './TaskItem.css';
+import '../styles/TaskItem.css';
 
 function TaskItem({ task, toggleComplete, deleteTask, editTask }) {
   const [isEditing, setIsEditing] = useState(false);

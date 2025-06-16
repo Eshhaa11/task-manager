@@ -14,11 +14,11 @@ html, body {
   padding: 40px 16px;
 }
 
-/* Main App Container */
+
 .app-container {
   width: 100%;
   max-width: 640px;
-  background-color: #282a36;     /* panel background */
+  background-color: #282a36;    
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.35);
   padding: 32px 28px 40px;

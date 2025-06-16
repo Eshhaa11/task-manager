@@ -2,7 +2,7 @@ import React from 'react';
 import TaskItem from './TaskItem';
 import './TaskList.css';
 
-function TaskList({ tasks, toggleComplete, deleteTask }) {
+function TaskList({ tasks, toggleComplete, deleteTask, editTask }) {
   return (
     <ul className="task-list">
       {tasks.map((task) => (
@@ -11,6 +11,7 @@ function TaskList({ tasks, toggleComplete, deleteTask }) {
           task={task}
           toggleComplete={toggleComplete}
           deleteTask={deleteTask}
+          editTask={editTask}
         />
       ))}
     </ul>

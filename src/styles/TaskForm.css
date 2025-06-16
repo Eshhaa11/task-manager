@@ -1,14 +1,42 @@
 .task-form {
   display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 12px;
+  margin-bottom: 28px;
 }
 
 .task-form input {
   flex: 1;
-  padding: 10px;
+  padding: 14px 16px;
+  background: var(--panel-light);
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  color: var(--text);
+  transition: border var(--transition), background var(--transition);
+}
+
+.task-form input:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: var(--panel-light);
 }
 
 .task-form button {
-  padding: 10px 20px;
+  padding: 0 24px;
+  background: var(--accent);
+  border: none;
+  border-radius: var(--radius);
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: background var(--transition), transform var(--transition);
+}
+
+.task-form button:hover {
+  background: var(--accent-hover);
+  transform: translateY(-1px);
+}
+
+.task-form button:active {
+  transform: translateY(0);
 }

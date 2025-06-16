@@ -3,19 +3,17 @@ import TaskForm from './components/TaskForm';
 import TaskList from './components/TaskList';
 import { loadTasks, saveTasks } from './services/storage';
 import { fetchTasksFromAPI } from './services/api';
-import './App.css';
+import './styles/App.css'; // ✅ This is actually correct
+
 
 function App() {
   const [tasks, setTasks] = useState([]);
 
-  useEffect(() => {
-    const localData = loadTasks();
-    if (localData.length) {
-      setTasks(localData);
-    } else {
-      fetchTasksFromAPI().then(apiTasks => setTasks(apiTasks));
-    }
-  }, []);
+useEffect(() => {
+  const localData = loadTasks();
+  setTasks(localData);
+}, []);
+
 
   useEffect(() => {
     saveTasks(tasks);

@@ -1,6 +1,6 @@
 # 📝 Task Manager (Capstone Project - React)
 
-This is a professional task manager built in **ReactJS** as part of the Module 2 Capstone Project. It includes all required features like task creation, editing, deletion, marking complete, local storage persistence, responsive dark UI, modular structure, and test coverage using Jest.
+A professional task manager built with **ReactJS** as part of the Module 2 Capstone Project. This app lets you add, edit, delete, and complete tasks — all saved locally. It features a responsive dark/light UI, modular structure, ESLint, and test coverage using Jest.
 
 ---
 
@@ -9,20 +9,21 @@ This is a professional task manager built in **ReactJS** as part of the Module 2
 - ✅ Add, edit, delete tasks
 - ✅ Mark tasks as completed/uncompleted
 - ✅ Save/load tasks from local storage
-- ✅ Responsive dark-themed user interface
-- ✅ Clean code organized with ES6 modules
-- ✅ Tests written with Jest and React Testing Library
-- ✅ Linted with ESLint 
+- ✅ Responsive dark/light user interface
+- ✅ Modular structure with ES6+ React
+- ✅ Unit tests using Jest and React Testing Library
+- ✅ Code linting with ESLint (Airbnb style)
 
 ---
 
 ## 🌓 Theme Toggle
 
 Click the toggle button to switch between:
-- 🌙 Dark Mode (default)
-- ☀️ Light Mode (auto-updates app styling)
 
-The theme updates live without reloading the page.
+- 🌙 **Dark Mode** (default)
+- ☀️ **Light Mode**
+
+The theme updates instantly without reloading.
 
 ---
 
@@ -30,7 +31,7 @@ The theme updates live without reloading the page.
 
 - React (Create React App)
 - JavaScript (ES6+)
-- CSS (custom dark theme)
+- CSS (custom dark/light themes)
 - Jest & React Testing Library
 - ESLint (Airbnb config)
 - Local Storage API
@@ -38,63 +39,53 @@ The theme updates live without reloading the page.
 ---
 
 ## 📁 Folder Structure
+
 src/
 ├── components/ # TaskForm, TaskItem, TaskList
-├── services/ # storage.js for local storage
-├── styles/ # Individual CSS files per component
-├── tests/ # Jest unit tests
-├── App.js # Main component
+├── services/ # Local storage functions
+├── styles/ # Per-component CSS files
+├── tests/ # Jest test files
+├── App.js # Main component (with theme toggle)
 ├── index.js # Entry point
-
 
 ---
 
 ## 📦 Installation & Running Locally
 
-1. Clone this repository:
-
+## 1. Clone this repository:
 ```bash
 git clone https://github.com/your-username/task-manager.git
 cd task-manager
-
 npm install
-
 npm start
+
 
 ---
 
 ## 🧪 Testing
 
-Unit tests cover:
+This project includes unit tests covering:
+
 - Adding a task
 - Editing a task
-- Completing a task
+- Marking complete
 - Deleting a task
-- Local storage load/save
+- Saving/loading from local storage
 
-
+### To run all tests:
+```bash
 npm test
 
+🧹 Linting
+Linting ensures consistent and clean code using ESLint with Airbnb's style guide.
 
- ## 🧹 Linting
-ESLint ensures consistent, clean code.
-
-
+To run ESLint:
+bash
 Copy
 Edit
 npx eslint src/
 
-## 📸 Screenshots
+---
 
-![Screenshot](./src/screenshots/imagee.png)
-![Screenshot](./src/screenshots/image.png)
-
-Built with ❤️ using React
-
-
-
-
-
-
-
-
+📸 Screenshots
+Place your screenshots in a /screenshots/ folder at the root of your project.

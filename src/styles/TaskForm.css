@@ -40,3 +40,14 @@
 .task-form button:active {
   transform: translateY(0);
 }
+
+@media (max-width: 480px) {
+  .task-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .task-form button {
+    width: 100%;
+  }
+}

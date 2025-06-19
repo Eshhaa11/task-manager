@@ -32,3 +32,14 @@ h1 {
   text-align: center;
   color: #e5e7eb;
 }
+
+@media (max-width: 480px) {
+  .app-container {
+    padding: 24px 16px 32px;
+    border-radius: 8px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}

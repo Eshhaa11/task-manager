@@ -87,5 +87,3 @@ npx eslint src/
 
 ---
 
-📸 Screenshots
-Place your screenshots in a /screenshots/ folder at the root of your project.

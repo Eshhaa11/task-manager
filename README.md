@@ -12,7 +12,7 @@ A professional task manager built with **ReactJS** as part of the Module 2 Capst
 - ✅ Responsive dark/light user interface
 - ✅ Modular structure with ES6+ React
 - ✅ Unit tests using Jest and React Testing Library
-- ✅ Code linting with ESLint (Airbnb style)
+- ✅ Code linting with ESLint 
 
 ---
 

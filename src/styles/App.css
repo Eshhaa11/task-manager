@@ -33,6 +33,58 @@ h1 {
   color: #e5e7eb;
 }
 
+
+body.dark-theme {
+  background-color: #1e1f29;
+  color: #e5e7eb;
+}
+
+body.light-theme {
+  background-color: #f4f4f4;
+  color: #1e1e1e;
+}
+
+body.light-theme .app-container {
+  background-color: #ffffff;
+  color: #1e1e1e;
+}
+
+body.light-theme .task-item {
+  background-color: #f9f9f9;
+}
+
+body.light-theme .task-form input,
+body.light-theme .task-item input[type="text"] {
+  background-color: #fff;
+  color: #1e1e1e;
+}
+
+body.light-theme .task-form button,
+body.light-theme .task-item button:hover {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.theme-toggle {
+  text-align: right;
+  margin-bottom: 16px;
+}
+
+.theme-toggle button {
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  background-color: transparent;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  color: inherit;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.theme-toggle button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 @media (max-width: 480px) {
   .app-container {
     padding: 24px 16px 32px;

@@ -16,6 +16,16 @@ This is a professional task manager built in **ReactJS** as part of the Module 2
 
 ---
 
+## 🌓 Theme Toggle
+
+Click the toggle button to switch between:
+- 🌙 Dark Mode (default)
+- ☀️ Light Mode (auto-updates app styling)
+
+The theme updates live without reloading the page.
+
+---
+
 ## 🛠️ Tech Stack
 
 - React (Create React App)
@@ -51,9 +61,37 @@ npm install
 
 npm start
 
+---
+
+## 🧪 Testing
+
+Unit tests cover:
+- Adding a task
+- Editing a task
+- Completing a task
+- Deleting a task
+- Local storage load/save
+
+
 npm test
 
+
+ ## 🧹 Linting
+ESLint ensures consistent, clean code.
+
+
+Copy
+Edit
 npx eslint src/
+
+## 📸 Screenshots
+
+![Screenshot](./src/screenshots/imagee.png)
+![Screenshot](./src/screenshots/image.png)
+
+Built with ❤️ using React
+
+
 
 
 

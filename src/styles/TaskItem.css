@@ -8,12 +8,12 @@
   transition: background var(--transition);
 }
 
-/* Elevation on hover */
+
 .task-item:hover {
   background: #3a3d56;
 }
 
-/* Checkbox */
+
 .task-item input[type="checkbox"] {
   accent-color: var(--accent);
   width: 18px;
@@ -21,20 +21,20 @@
   cursor: pointer;
 }
 
-/* Static text */
+
 .task-item span {
   flex: 1;
   font-size: 1rem;
   word-break: break-word;
 }
 
-/* Completed look */
+
 .task-item .completed {
   color: var(--text-muted);
   text-decoration: line-through;
 }
 
-/* Edit text field */
+
 .task-item input[type="text"] {
   flex: 1;
   padding: 10px 12px;
@@ -51,7 +51,7 @@
   border-color: var(--accent);
 }
 
-/* Action buttons */
+
 .task-item button {
   background: transparent;
   border: 1px solid var(--panel);
